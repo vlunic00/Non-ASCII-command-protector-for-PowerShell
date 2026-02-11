@@ -22,17 +22,17 @@ The script hooks into the **PSReadLine** module, which handles keyboard input in
 
 ##  Installation
 
-### 1. Locate your Profile
-Open PowerShell and type the following to open your profile script in Notepad:
+### Locate your Profile
+1. Open PowerShell and type the following to open your profile script in Notepad:
 ```powershell
 notepad $PROFILE
 ```
-Paste the code from PS hook.ps1 into the file and save it.  
-If you haven't enabled local scripts on your machine yet, run this command as an Administrator:  
+2. Paste the code from PS hook.ps1 into the file and save it.  
+3. If you haven't enabled local scripts on your machine yet, run this command as an Administrator:  
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```  
-Restart your terminal.  
+4. Restart your terminal.  
    
 ## Testing
 Run the following:
